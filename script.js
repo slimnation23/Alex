@@ -4,5 +4,5 @@ const navList = document.querySelector(".nav-list");
 menuBtn.addEventListener("click", toggleMenu);
 
 function toggleMenu() {
-  navList.classList.toggle("show");
+  navList.classList.toggle("active");
 }
